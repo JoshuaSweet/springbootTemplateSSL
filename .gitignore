@@ -1,0 +1,9 @@
+.metadata
+.recommenders
+RemoteSystemsTempFiles/
+test/target/*
+ignore/
+test/.settings
+test/.classpath
+test/.project
+test/.springBeans

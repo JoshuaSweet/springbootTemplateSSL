@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>The Joshbox</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./external/bootstrap/css/bootstrap.min.css"/>	   
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="./internal/css/site.css"/>
+	<link rel="stylesheet" type="text/css" href="./internal/css/contact.css"/>
+    <script type="text/javascript" src="./external/jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./external/bootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="./external/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./internal/js/ValidationUtil.js"></script>
+    <script type="text/javascript" src="./internal/js/contact.js"></script>
+    <script type="text/javascript" src="./internal/js/index.js"></script>    
+</head>
+
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default fixed-top navbar-expand">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#home">Joshbox</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="navbar-nav navbar-right mr-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+        <li class="nav-item"><a class="nav-link" href="#repos">REPOS</a></li>        
+        <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+        <li class="nav-item"><a class="nav-link" href="#inspiration">INSPIRATION</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Container (The active Section) -->
+<div id="home" class="bg-2">
+	<div class="container text-center">
+	  <h3>HOME</h3>
+	  <p><em>Home Subheader!</em></p>
+	  <p>
+	  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+	  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	  </p> 
+	</div>
+</div>
+
+<!-- Container (The Gospel Section) -->
+<div id="about" class="bg-1">
+	<div class="container text-center">
+	  <h3>ABOUT</h3>
+	  <p><em>About Subheader!</em></p>
+	  <p>
+	  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+	  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	  </p>	    
+	</div>
+</div>
+
+<!-- Container (The tracts Section) -->
+<div id="repos" class="bg-2">
+	<div class="container text-center">
+	  <h3>REPOS</h3>
+	  <p><em>Repos Subheader!</em></p>
+	  <p>
+	  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+	  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	  </p>	
+	</div>
+</div>
+
+<!-- Container (The contact Section) -->
+<div id="contact" class="bg-1">
+	<div class="container text-center">
+	  <h3>CONTACT</h3>
+	  <p><em>Contact Subheader!</em></p>
+	  <label for="contactEmail" style="display: block;">Your Email:</label>
+	  <input type="text" id="contactEmail" style="margin-bottom:10px;"/>
+	  <label for="contactMessage" style="display:block;">Your Message:</label>
+	  <textarea id="contactMessage" style="max-width:90%;max-height:200px;" rows="4" cols="100" maxlength="500"></textarea>
+	  <input type="text" class="clear-hold" id="extra" style="margin-bottom:10px;"/>
+	  <br/>
+	  <button id="contactSend">Send</button>
+	</div>
+</div>
+
+<!-- Container (The inspiration Section) -->
+<div id="inspiration" class="bg-2">
+	<div class="container text-center">
+	  <h3>INSPIRATION</h3>
+	  <p><em>Inspiration Subheader!</em></p>
+	  <p>
+	  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+	  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	  </p>	
+	</div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center">
+  <p>&copy; 2012<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, site.com</p> 
+</footer>
+
+</body>
+</html>
